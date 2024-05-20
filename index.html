@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cola del Banco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cola del Banco</h1>
+        
+        <div class="controls">
+            <button id="addCustomer">Añadir Cliente</button>
+            <button id="enableCounter1">Habilitar Caja 1</button>
+            <button id="disableCounter1">Deshabilitar Caja 1</button>
+            <button id="enableCounter2">Habilitar Caja 2</button>
+            <button id="disableCounter2">Deshabilitar Caja 2</button>
+        </div>
+
+        <div class="queue">
+            <h2>Cola de Clientes</h2>
+            <ul id="customerQueue"></ul>
+        </div>
+
+        <div class="counters">
+            <h2>Cajas</h2>
+            <div id="counter1" class="counter">
+                <h3>Caja 1</h3>
+                <p id="statusCounter1">Deshabilitada</p>
+                <p id="servingCounter1">No atendiendo a nadie</p>
+            </div>
+            <div id="counter2" class="counter">
+                <h3>Caja 2</h3>
+                <p id="statusCounter2">Deshabilitada</p>
+                <p id="servingCounter2">No atendiendo a nadie</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

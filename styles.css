@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Sección de controles */
+.controls {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Cola de clientes */
+.queue {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#customerQueue {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#customerQueue li {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Sección de cajas */
+.counters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.counter h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.counter p {
+    margin: 10px 0;
+    color: #666;
+}
+
+#statusCounter1, #statusCounter2 {
+    font-weight: bold;
+}
+
+#servingCounter1, #servingCounter2 {
+    color: #007bff;
+}
